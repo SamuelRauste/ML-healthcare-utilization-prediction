@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+# Download source data directly from UCI, rather than committing copies.
+data/*.csv
+# Reproducible generated metrics and plots.
+figures/*.png
+figures/*.json
